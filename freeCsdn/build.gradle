@@ -1,0 +1,33 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "23.0.0"
+
+    defaultConfig {
+        applicationId "com.free.csdn"
+        minSdkVersion 14
+        targetSdkVersion 15
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile project(':xListView')
+    compile 'com.android.support:support-v4:19.1.0'
+    compile files('libs/bugly_1.2.3.8__release.jar')
+    compile files('libs/gesture-imageview.jar')
+    compile files('libs/glide-3.6.1.jar')
+    compile files('libs/jsoup-1.8.2.jar')
+    compile files('libs/swipemenulistview.jar')
+    compile files('libs/umeng-analytics-v5.5.3.jar')
+    compile files('libs/umeng-feedback-v5.4.0.jar')
+    compile files('libs/umeng-update-v2.6.0.1.jar')
+    compile files('libs/xutils.jar')
+}

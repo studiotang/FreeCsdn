@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shap_rect_bg_white_no_stroke"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_delete_blogger"
+        style="@style/TextView_Dialog_Blogger_Operation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/blogger_delete" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dip"
+        android:background="@color/line" />
+
+    <TextView
+        android:id="@+id/tv_stick_blogger"
+        style="@style/TextView_Dialog_Blogger_Operation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/blogger_stick" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dip"
+        android:background="@color/line" />
+
+    <TextView
+        android:id="@+id/tv_cacle_operate"
+        style="@style/TextView_Dialog_Blogger_Operation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cache_operation" />
+
+</LinearLayout><!-- From: file:/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/res/layout/dialog_blogger_operation.xml -->

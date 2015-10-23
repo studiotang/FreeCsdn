@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/libs/swipemenulistview.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="1ba624f40ee242ad5bb43933be9e1b113327dc91">
+        <dex dex="/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/build/intermediates/pre-dexed/debug/swipemenulistview-c55e2e32ebd3465507f355cc62c0d030209a252f.jar" />
+    </item>
+    <item
+        jar="/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/libs/umeng-analytics-v5.5.3.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="5d503ec571e2e98d972209afa203f94d11882c15">
+        <dex dex="/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/build/intermediates/pre-dexed/debug/umeng-analytics-v5.5.3-43efc00c2aa83225a6f6f1f4cc3cc776d27b83ce.jar" />
+    </item>
+    <item
+        jar="/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/libs/gesture-imageview.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="f35b84dbde468fe5e854415ff5489e5d5a94e36d">
+        <dex dex="/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/build/intermediates/pre-dexed/debug/gesture-imageview-c457d4a448916dfc15dc416d1bc9597c05559261.jar" />
+    </item>
+    <item
+        jar="/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/libs/umeng-feedback-v5.4.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="993055275c65a58d47e98493d8028a74a0e1c06e">
+        <dex dex="/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/build/intermediates/pre-dexed/debug/umeng-feedback-v5.4.0-e6eb0e823a10693eaba7982d3ece689bd6fdd2c3.jar" />
+    </item>
+    <item
+        jar="/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/build/intermediates/exploded-aar/FreeCsdn/xListView/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="9c31a744c418e51b0746c1e44158ba716317be26">
+        <dex dex="/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/build/intermediates/pre-dexed/debug/classes-255f802c76d94b7c695a505827a80df01c9f867a.jar" />
+    </item>
+    <item
+        jar="/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/libs/glide-3.6.1.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="86b122e640af09b0723e1fa44083c354ba6d9089">
+        <dex dex="/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/build/intermediates/pre-dexed/debug/glide-3.6.1-58153d9735bbd7c9f6d5b98c69c6104aa84d053c.jar" />
+    </item>
+    <item
+        jar="/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/libs/xutils.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="592de8e7a5999b3c9c908f536d04ee477eeb8cfb">
+        <dex dex="/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/build/intermediates/pre-dexed/debug/xutils-bc55ed8f867609d6bea2520d8990750f09948cb1.jar" />
+    </item>
+    <item
+        jar="/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/libs/bugly_1.2.3.8__release.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="ab42e21d33d29850c095dd7f74746748a8f4a5f1">
+        <dex dex="/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/build/intermediates/pre-dexed/debug/bugly_1.2.3.8__release-de333e88ab975eb6d51fc072176b623a3247ee03.jar" />
+    </item>
+    <item
+        jar="/Users/shenshan/Documents/workspace/programs/android-sdk-macosx/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/build/intermediates/pre-dexed/debug/support-v4-19.1.0-a355f186d27fccf6e84aa1b3190739b149243a28.jar" />
+    </item>
+    <item
+        jar="/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/libs/jsoup-1.8.2.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="580e4dd2a6125cc4037450b40623ac6a552c11df">
+        <dex dex="/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/build/intermediates/pre-dexed/debug/jsoup-1.8.2-1d33d6dd8fa59ba17a7a1f359e885faa33a4ab2f.jar" />
+    </item>
+    <item
+        jar="/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/libs/umeng-update-v2.6.0.1.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="7bfeea30c4995f90a4374ce4177772a4579f2797">
+        <dex dex="/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/build/intermediates/pre-dexed/debug/umeng-update-v2.6.0.1-bf7d5b94c9e63514040c488269da98a36a259e85.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/res/values-zh/umeng_fb_strings.xml -->
+    <eat-comment/>
+    <string-array name="umeng_fb_contact_key_array">
+        <item>@string/umeng_fb_contact_key_email</item>
+        <item>@string/umeng_fb_contact_key_qq</item>s
+        <item>@string/umeng_fb_contact_key_phone</item>
+        <item>@string/umeng_fb_contact_key_other</item>
+    </string-array>
+    <string-array name="umeng_fb_contact_type_array">
+        <item>@string/umeng_fb_contact_email</item>
+        <item>@string/umeng_fb_contact_qq</item>
+        <item>@string/umeng_fb_contact_phone</item>
+        <item>@string/umeng_fb_contact_other</item>
+    </string-array>
+    <string-array name="umeng_fb_tabs_title">
+        <item>用户反馈</item>
+        <item>常见问题</item>
+    </string-array>
+    <!-- From: file:/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/res/values-zh/umeng_update_string.xml -->
+    <eat-comment/>
+    <string name="UMAppUpdate">应用更新</string>
+    <string name="UMBreak_Network">未联网</string>
+    <string name="UMDialog_InstallAPK">最新版本已下载，是否安装？</string>
+    <string name="UMGprsCondition">（提示：非WIFI环境）</string>
+    <string name="UMIgnore">忽略该版</string>
+    <string name="UMNewVersion">最新版本: </string>
+    <string name="UMNotNow">以后再说</string>
+    <string name="UMTargetSize">新版本大小:</string>
+    <string name="UMToast_IsUpdating">正在更新中....</string>
+    <string name="UMUpdateContent">更新内容</string>
+    <string name="UMUpdateNow">立即更新</string>
+    <string name="UMUpdateSize">仅需要下载:</string>
+    <string name="UMUpdateTitle">发现新版本</string>
+    <!-- From: file:/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/res/values-zh/umeng_common_strings.xml -->
+    <eat-comment/>
+    <string name="umeng_common_action_cancel">取消</string>
+    <string name="umeng_common_action_continue">继续</string>
+    <string name="umeng_common_action_info_exist">正在下载中.</string>
+    <string name="umeng_common_action_pause">暂停</string>
+    <string name="umeng_common_download_failed">下载失败</string>
+    <string name="umeng_common_download_finish">下载完成，请点击安装</string>
+    <string name="umeng_common_download_notification_prefix">正在下载: </string>
+    <string name="umeng_common_info_interrupt">下载出错啦，请检查网络后继续。</string>
+    <string name="umeng_common_network_break_alert">请连接网络后再尝试！</string>
+    <string name="umeng_common_patch_finish">更新完成，请点击安装</string>
+    <string name="umeng_common_pause_notification_prefix">暂停: </string>
+    <string name="umeng_common_silent_download_finish">新版本已经准备好，请点击安装</string>
+    <string name="umeng_common_start_download_notification">正在下载应用</string>
+    <string name="umeng_common_start_patch_notification">正在更新安装包</string>
+    <!-- From: file:/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/res/values-zh/umeng_fb_strings.xml -->
+    <eat-comment/>
+    <string name="umeng_fb_back">返回</string>
+    <string name="umeng_fb_change_contact_title">更改联系信息</string>
+    <string name="umeng_fb_contact_email">邮箱</string>
+    <string name="umeng_fb_contact_info">联系方式</string>
+    <string name="umeng_fb_contact_info_hint">QQ, 电话等我们能联系您的联系方式</string>
+    <string name="umeng_fb_contact_key_email">email</string>
+    <string name="umeng_fb_contact_key_other">plain</string>
+    <string name="umeng_fb_contact_key_phone">phone</string>
+    <string name="umeng_fb_contact_key_qq">qq</string>
+    <string name="umeng_fb_contact_other">其他</string>
+    <string name="umeng_fb_contact_phone">手机</string>
+    <string name="umeng_fb_contact_qq">QQ</string>
+    <string name="umeng_fb_contact_save">保存</string>
+    <string name="umeng_fb_count_down">限时倒数</string>
+    <string name="umeng_fb_feedback">意见反馈</string>
+    <string name="umeng_fb_no_record_permission">没有录音权限</string>
+    <string name="umeng_fb_notification_content_formatter_multiple_msg">收到来自开发者的 %d 条回复。</string>
+    <string name="umeng_fb_notification_content_formatter_single_msg">新回复: %s</string>
+    <string name="umeng_fb_notification_ticker_text">有新的回复</string>
+    <string name="umeng_fb_please_select_picture">请选择图片</string>
+    <string name="umeng_fb_press_speech">按住说话</string>
+    <string name="umeng_fb_record_fail">录音失败</string>
+    <string name="umeng_fb_record_time_short">录音时间太短</string>
+    <string name="umeng_fb_release_cancel">松开手指,取消发送</string>
+    <string name="umeng_fb_release_send">松开发送</string>
+    <string name="umeng_fb_reply_content_default">你好， 我是产品经理，欢迎您反馈使用产品的感受和建议</string>
+    <string name="umeng_fb_send">发送</string>
+    <string name="umeng_fb_send_fail">发送失败</string>
+    <string name="umeng_fb_sending">正在发送…</string>
+    <string name="umeng_fb_slide_up_cancel">向上滑动,取消发送</string>
+    <string name="umeng_fb_time_minutes_ago">%d分钟前</string>
+    <string name="umeng_fb_time_pre_year_format">yy/MM/dd HH:mm:ss</string>
+    <string name="umeng_fb_time_right_now">刚刚</string>
+    <string name="umeng_fb_time_this_year_format">MM/dd HH:mm:ss</string>
+    <string name="umeng_fb_title">用户反馈</string>
+    <string name="umeng_fb_write_contact_title">填写联系信息</string>
+</resources>

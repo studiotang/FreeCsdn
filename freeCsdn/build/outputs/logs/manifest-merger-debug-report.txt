@@ -1,0 +1,202 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:2:1-120:12
+	package
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:3:5-28
+		INJECTED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml
+		INJECTED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:6:5-32
+	xmlns:tools
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:4:5-51
+	android:versionCode
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml
+		INJECTED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:8:5-10:41
+MERGED from [FreeCsdn:xListView:unspecified] /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/build/intermediates/exploded-aar/FreeCsdn/xListView/unspecified/AndroidManifest.xml:7:5-9:40
+	android:targetSdkVersion
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:10:9-38
+		INJECTED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml
+		INJECTED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:9:9-35
+		INJECTED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml
+		INJECTED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:12:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:13:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:14:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:15:22-78
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:16:5-84
+	android:name
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:16:22-81
+application
+ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:18:5-118:19
+MERGED from [FreeCsdn:xListView:unspecified] /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/build/intermediates/exploded-aar/FreeCsdn/xListView/unspecified/AndroidManifest.xml:11:5-15:19
+	android:label
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:22:9-41
+	android:allowBackup
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:20:9-35
+	android:icon
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:21:9-45
+	android:theme
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:24:9-68
+		REJECTED from [FreeCsdn:xListView:unspecified] /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/build/intermediates/exploded-aar/FreeCsdn/xListView/unspecified/AndroidManifest.xml:14:9-40
+	tools:replace
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:23:9-38
+	android:name
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:19:9-58
+activity#com.free.csdn.activity.SplashActivity
+ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:25:9-34:20
+	android:screenOrientation
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:28:13-49
+	android:label
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:27:13-45
+	android:name
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:26:13-65
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:29:13-33:29
+action#android.intent.action.MAIN
+ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:30:17-69
+	android:name
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:30:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:32:17-77
+	android:name
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:32:27-74
+activity#com.free.csdn.temp.HomeActivity
+ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:35:9-39:20
+	android:screenOrientation
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:38:13-49
+	android:label
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:37:13-45
+	android:name
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:36:13-59
+activity#com.free.csdn.activity.MainActivity
+ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:40:9-45:20
+	android:screenOrientation
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:43:13-49
+	android:label
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:42:13-45
+	android:theme
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:44:13-50
+	android:name
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:41:13-63
+activity#com.free.csdn.activity.BlogListActivity
+ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:46:9-49:20
+	android:screenOrientation
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:48:13-49
+	android:name
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:47:13-67
+activity#com.free.csdn.temp.BlogDetailActivity
+ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:50:9-53:20
+	android:screenOrientation
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:52:13-49
+	android:name
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:51:13-65
+activity#com.free.csdn.activity.BlogContentActivity
+ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:54:9-57:20
+	android:screenOrientation
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:56:13-49
+	android:name
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:55:13-70
+activity#com.free.csdn.activity.BlogCommentActivity
+ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:58:9-61:20
+	android:screenOrientation
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:60:13-49
+	android:name
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:59:13-70
+activity#com.free.csdn.temp.ImageActivity
+ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:62:9-65:20
+	android:screenOrientation
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:64:13-49
+	android:name
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:63:13-60
+activity#com.free.csdn.activity.AboutActivity
+ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:66:9-69:20
+	android:screenOrientation
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:68:13-49
+	android:name
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:67:13-64
+activity#com.free.csdn.activity.ContactUsActivity
+ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:70:9-73:20
+	android:screenOrientation
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:72:13-49
+	android:name
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:71:13-68
+activity#com.free.csdn.activity.UpdateLogActivity
+ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:74:9-77:20
+	android:screenOrientation
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:76:13-49
+	android:name
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:75:13-68
+activity#com.free.csdn.activity.SettingsActivity
+ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:78:9-81:20
+	android:screenOrientation
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:80:13-49
+	android:name
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:79:13-67
+activity#com.free.csdn.activity.BlogCollectActivity
+ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:82:9-85:20
+	android:screenOrientation
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:84:13-49
+	android:name
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:83:13-70
+activity#com.free.csdn.activity.ChannelDetailActivity
+ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:86:9-89:20
+	android:screenOrientation
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:88:13-49
+	android:name
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:87:13-72
+activity#com.free.csdn.activity.HotListActivity
+ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:90:9-93:20
+	android:screenOrientation
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:92:13-49
+	android:name
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:91:13-66
+service#com.umeng.update.net.DownloadingService
+ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:96:9-99:19
+	android:process
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:98:13-50
+	android:name
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:97:13-67
+activity#com.umeng.update.UpdateDialogActivity
+ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:101:9-104:20
+	android:theme
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:103:13-72
+	android:name
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:102:13-65
+activity#com.free.csdn.lib.umeng.CustomActivity
+ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:105:9-108:20
+	android:screenOrientation
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:107:13-49
+	android:name
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:106:13-66
+meta-data#UMENG_APPKEY
+ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:110:9-112:56
+	android:value
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:112:13-53
+	android:name
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:111:13-40
+meta-data#UMENG_CHANNEL
+ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:113:9-115:42
+	android:value
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:115:13-39
+	android:name
+		ADDED from /Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/AndroidManifest.xml:114:13-41
