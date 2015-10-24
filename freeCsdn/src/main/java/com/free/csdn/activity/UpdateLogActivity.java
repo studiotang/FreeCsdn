@@ -8,16 +8,16 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.free.csdn.R;
-import com.free.csdn.base.BaseActivity;
+import com.free.csdn.base.BaseFragmentActivity;
 
 
 /**
- * 更新日志
+ * 更新日志v
  *
  * @author  tangqi
  * @data    2015年8月15日下午10:05:51
  */
-public class UpdateLogActivity extends BaseActivity {
+public class UpdateLogActivity extends BaseFragmentActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

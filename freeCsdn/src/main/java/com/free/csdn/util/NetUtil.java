@@ -47,7 +47,7 @@ public class NetUtil {
 		if (pContext.getPackageManager().checkPermission("android.permission.ACCESS_NETWORK_STATE",
 				pContext.getPackageName()) == PackageManager.PERMISSION_GRANTED) {
 			ConnectivityManager localConnectivityManager = (ConnectivityManager) pContext
-					.getSystemService("connectivity");
+					.getSystemService(Context.CONNECTIVITY_SERVICE);
 			if (localConnectivityManager == null)
 				return type;
 
@@ -76,7 +76,7 @@ public class NetUtil {
 	public static String getWifiAddress(Context pContext) {
 		String address = DEFAULT_WIFI_ADDRESS;
 		if (pContext != null) {
-			WifiInfo localWifiInfo = ((WifiManager) pContext.getSystemService("wifi")).getConnectionInfo();
+			WifiInfo localWifiInfo = ((WifiManager) pContext.getSystemService(Context.WIFI_SERVICE)).getConnectionInfo();
 			if (localWifiInfo != null) {
 				address = localWifiInfo.getMacAddress();
 				if (address == null || address.trim().equals(""))
@@ -97,7 +97,7 @@ public class NetUtil {
 	public static String getWifiIpAddress(Context pContext) {
 		WifiInfo localWifiInfo = null;
 		if (pContext != null) {
-			localWifiInfo = ((WifiManager) pContext.getSystemService("wifi")).getConnectionInfo();
+			localWifiInfo = ((WifiManager) pContext.getSystemService(Context.WIFI_SERVICE)).getConnectionInfo();
 			if (localWifiInfo != null) {
 				String str = convertIntToIp(localWifiInfo.getIpAddress());
 				return str;
@@ -113,13 +113,13 @@ public class NetUtil {
 	 * @return
 	 */
 	public static WifiManager getWifiManager(Context pContext) {
-		return (WifiManager) pContext.getSystemService("wifi");
+		return (WifiManager) pContext.getSystemService(Context.WIFI_SERVICE);
 	}
 
 	/**
 	 * 网络可用 android:name="android.permission.ACCESS_NETWORK_STATE"/>
 	 * 
-	 * @param ctx
+	 * @param context
 	 * @return
 	 */
 	public static boolean isNetworkAvailable(Context context) {

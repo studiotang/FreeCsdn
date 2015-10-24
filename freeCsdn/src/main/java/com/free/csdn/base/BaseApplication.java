@@ -94,6 +94,14 @@ public class BaseApplication extends Application {
 	public void addActivity(Activity activity) {
 		mActivities.add(activity);
 	}
+	/**
+	 * 把Activity加入历史堆栈
+	 *
+	 * @param activity
+	 */
+	public void delActivity(Activity activity) {
+		mActivities.add(activity);
+	}
 
 	/**
 	 * 结束
