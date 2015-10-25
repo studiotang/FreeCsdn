@@ -1,22 +1,5 @@
 package com.free.csdn.activity;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import com.free.csdn.R;
-import com.free.csdn.adapter.DrawerAdapter;
-import com.free.csdn.base.BaseFragmentActivity;
-import com.free.csdn.bean.DrawerInfo;
-import com.free.csdn.fragment.BloggerFragment;
-import com.free.csdn.fragment.ChannelFragment;
-import com.free.csdn.fragment.HotFragment;
-import com.free.csdn.util.ToastUtil;
-import com.free.csdn.view.CircleImageView;
-import com.free.csdn.view.drawerlayout.ActionBarDrawerToggle;
-import com.free.csdn.view.drawerlayout.DrawerArrowDrawable;
-import com.umeng.analytics.MobclickAgent;
-import com.umeng.update.UmengUpdateAgent;
-
 import android.app.ActionBar;
 import android.content.Intent;
 import android.content.res.Configuration;
@@ -37,13 +20,30 @@ import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.free.csdn.R;
+import com.free.csdn.adapter.DrawerAdapter;
+import com.free.csdn.base.BaseActivity;
+import com.free.csdn.bean.DrawerInfo;
+import com.free.csdn.fragment.BloggerFragment;
+import com.free.csdn.fragment.ChannelFragment;
+import com.free.csdn.fragment.HotFragment;
+import com.free.csdn.util.ToastUtil;
+import com.free.csdn.view.CircleImageView;
+import com.free.csdn.view.drawerlayout.ActionBarDrawerToggle;
+import com.free.csdn.view.drawerlayout.DrawerArrowDrawable;
+import com.umeng.analytics.MobclickAgent;
+import com.umeng.update.UmengUpdateAgent;
+
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * 侧滑风格主Activity
  * 
  * @author tangqi
  * @data 2015年8月12日下午10:46:07
  */
-public class MainActivity extends BaseFragmentActivity implements OnClickListener, OnItemClickListener {
+public class MainActivity extends BaseActivity implements OnClickListener, OnItemClickListener {
 
 	private DrawerLayout mDrawerLayout;
 	private ListView mDrawerList;

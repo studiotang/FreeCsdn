@@ -290,7 +290,7 @@ public class BlogContentActivity extends BaseActivity implements OnResponseListe
 	/**
 	 * 加载页面
 	 * 
-	 * @param resultString
+	 * @param html
 	 */
 	private void loadHtml(String html) {
 		if (!TextUtils.isEmpty(html)) {

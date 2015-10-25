@@ -8,7 +8,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.free.csdn.R;
-import com.free.csdn.base.BaseFragmentActivity;
+import com.free.csdn.base.BaseActivity;
 
 
 /**
@@ -17,7 +17,7 @@ import com.free.csdn.base.BaseFragmentActivity;
  * @author  tangqi
  * @data    2015年8月15日下午10:05:51
  */
-public class UpdateLogActivity extends BaseFragmentActivity {
+public class UpdateLogActivity extends BaseActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

@@ -8,20 +8,20 @@ import android.widget.RadioGroup.OnCheckedChangeListener;
 import android.widget.Toast;
 
 import com.free.csdn.R;
-import com.free.csdn.base.BaseFragmentActivity;
+import com.free.csdn.base.BaseActivity;
 import com.free.csdn.fragment.BloggerFragment;
 import com.free.csdn.fragment.ChannelFragment;
-/**
- * 主页
- * 
- * @author tangqi
- * @data 2015年7月8日下午9:20:20
- *
- */
 import com.free.csdn.fragment.FindFragment;
 import com.free.csdn.fragment.MeFragment;
 import com.umeng.analytics.MobclickAgent;
 import com.umeng.update.UmengUpdateAgent;
+
+/**
+ * 主页
+ *
+ * @author tangqi
+ * @data 2015年7月8日下午9:20:20
+ */
 
 /**
  * 首页
@@ -30,7 +30,7 @@ import com.umeng.update.UmengUpdateAgent;
  * 
  */
 @Deprecated
-public class HomeActivity extends BaseFragmentActivity implements OnCheckedChangeListener {
+public class HomeActivity extends BaseActivity implements OnCheckedChangeListener {
 
 	private RadioGroup mGroup;
 	private BloggerFragment mFirstFragment;

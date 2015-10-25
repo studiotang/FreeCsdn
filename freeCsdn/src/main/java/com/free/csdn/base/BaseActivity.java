@@ -12,7 +12,7 @@ import com.umeng.analytics.MobclickAgent;
  * @data 2015年8月10日上午12:07:57
  */
 
-public class BaseFragmentActivity extends FragmentActivity {
+public class BaseActivity extends FragmentActivity {
 
 	@Override
 	protected void onCreate(Bundle arg0) {
