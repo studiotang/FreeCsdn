@@ -10,11 +10,12 @@
 
     <ImageView
         android:id="@+id/imvDrawer"
-        android:layout_width="wrap_content"
+        android:layout_width="40dip"
         android:layout_height="40dip"
         android:contentDescription="@null"
         android:layout_marginLeft="10dip"
         android:padding="5dip"
+        android:scaleType="fitCenter"
         android:src="@drawable/ic_default"
         android:visibility="visible" />
 

@@ -93,6 +93,10 @@
             android:name="com.free.csdn.activity.HotListActivity"
             android:screenOrientation="portrait" >
         </activity>
+        <activity
+            android:name=".activity.BrowseHistoryActivity"
+            android:screenOrientation="portrait" >
+        </activity>
 
         <!-- umeng auto upgrade start -->
         <service

@@ -11,6 +11,7 @@ import com.free.csdn.R;
 import com.free.csdn.base.BaseActivity;
 import com.free.csdn.bean.BlogHtml;
 import com.free.csdn.bean.BlogItem;
+import com.free.csdn.db.BlogBrowseHistoryDao;
 import com.free.csdn.db.BlogCollectDao;
 import com.free.csdn.db.BlogContentDao;
 import com.free.csdn.db.DaoFactory;
@@ -61,6 +62,7 @@ public class BlogContentActivity extends BaseActivity implements OnResponseListe
 	private ToggleButton mCollectBtn;
 
 	private BlogCollectDao mBlogCollectDao;
+	private BlogBrowseHistoryDao mBlogBrowseHistoryDao;
 	private BlogItem mBlogItem;
 	public String mTitle;
 	private String mUrl;
@@ -87,6 +89,7 @@ public class BlogContentActivity extends BaseActivity implements OnResponseListe
 	// 初始化
 	private void init() {
 		mBlogCollectDao = DaoFactory.getInstance().getBlogCollectDao(this);
+		mBlogBrowseHistoryDao = DaoFactory.getInstance().getBlogBrowseHistoryDao(this);
 		mHistoryUrlList = new ArrayList<String>();
 
 		mBlogItem = (BlogItem) getIntent().getSerializableExtra("blogItem");
@@ -95,6 +98,8 @@ public class BlogContentActivity extends BaseActivity implements OnResponseListe
 			mTitle = mBlogItem.getTitle();
 			mFileName = mUrl.substring(mUrl.lastIndexOf("/") + 1);
 		}
+		mBlogItem.setUpdateTime(System.currentTimeMillis());
+		mBlogBrowseHistoryDao.insert(mBlogItem);
 	}
 
 	// 初始化组件

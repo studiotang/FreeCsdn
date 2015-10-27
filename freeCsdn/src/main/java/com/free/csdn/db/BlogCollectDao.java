@@ -23,21 +23,21 @@ public interface BlogCollectDao {
 	/**
 	 * 保存博客
 	 * 
-	 * @param list
+	 * @param blogItem
 	 */
 	public void insert(BlogItem blogItem);
 	
 	/**
 	 * 删除博客
 	 * 
-	 * @param list
+	 * @param blogItem
 	 */
 	public void delete(BlogItem blogItem);
 	
 	/**
 	 * 查找博客
 	 * 
-	 * @param list
+	 * @param link
 	 */
 	public BlogItem query(String link);
 

@@ -58,8 +58,8 @@ public class MainActivity extends BaseActivity implements OnClickListener, OnIte
 
 	public static FragmentManager mFragmentManager;
 	private Boolean isOpen = false;
-	private String[] mMenuTitles = { "首页", "频道", "热门", "收藏", "关于", "设置" };
-	private int[] mResId = { R.drawable.me_06, R.drawable.me_03, R.drawable.find_04,R.drawable.me_02, R.drawable.me_04, R.drawable.me_05};
+	private String[] mMenuTitles = { "首页", "频道", "热门", "收藏", "历史","关于", "设置" };
+	private int[] mResId = { R.drawable.me_06, R.drawable.me_03, R.drawable.find_04,R.drawable.me_02, R.drawable.me_07, R.drawable.me_04,R.drawable.me_05};
 	private long mExitTime;
 	private final static long TIME_DIFF = 2 * 1000;
 
@@ -209,10 +209,13 @@ public class MainActivity extends BaseActivity implements OnClickListener, OnIte
 			break;
 
 		case 4:
+			intent = new Intent(MainActivity.this, BrowseHistoryActivity.class);
+			break;
+		case 5:
 			intent = new Intent(MainActivity.this, AboutActivity.class);
 			break;
 
-		case 5:
+		case 6:
 			intent = new Intent(MainActivity.this, SettingsActivity.class);
 			break;
 		}

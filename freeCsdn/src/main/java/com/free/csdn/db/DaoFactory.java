@@ -2,6 +2,7 @@
 package com.free.csdn.db;
 
 import com.free.csdn.bean.Channel;
+import com.free.csdn.db.impl.BlogBrowseHistoryDaoImpl;
 import com.free.csdn.db.impl.BlogCollectDaoImpl;
 import com.free.csdn.db.impl.BlogCommentDaoImpl;
 import com.free.csdn.db.impl.BlogContentDaoImpl;
@@ -76,6 +77,15 @@ public class DaoFactory {
 	 */
 	public BlogCollectDao getBlogCollectDao(Context context) {
 		return new BlogCollectDaoImpl(context);
+	}
+	/**
+	 * 获取博客收藏数据库
+	 *
+	 * @param context
+	 * @return
+	 */
+	public BlogBrowseHistoryDao getBlogBrowseHistoryDao(Context context) {
+		return new BlogBrowseHistoryDaoImpl(context);
 	}
 
 	/**
