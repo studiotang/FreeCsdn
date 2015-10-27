@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/res/values/umeng_fb_strings.xml -->
+    <eat-comment/>
+    <string-array name="umeng_fb_contact_key_array">
+        <item>@string/umeng_fb_contact_key_email</item>
+        <item>@string/umeng_fb_contact_key_qq</item>s
+        <item>@string/umeng_fb_contact_key_phone</item>
+        <item>@string/umeng_fb_contact_key_other</item>
+    </string-array>
+    <string-array name="umeng_fb_contact_type_array">
+        <item>@string/umeng_fb_contact_email</item>
+        <item>@string/umeng_fb_contact_qq</item>
+        <item>@string/umeng_fb_contact_phone</item>
+        <item>@string/umeng_fb_contact_other</item>
+    </string-array>
+    <string-array name="umeng_fb_tabs_title">
+        <item>Feedback</item>
+        <item>FAQ</item>
+    </string-array>
+    <!-- From: file:/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/build/intermediates/exploded-aar/FreeCsdn/xListView/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <attr format="reference" name="absListViewStyle"/>
+    <attr format="reference" name="listViewStyle"/>
+    <!-- From: file:/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="black">#000000</color>
+    <color name="black2">#80000000</color>
+    <color name="black_main_color">#21292C</color>
+    <color name="black_text">#353535</color>
+    <color name="blue">#01A7FF</color>
+    <color name="blue_deep">#4A708B</color>
+    <color name="blue_main_color">#019587</color>
+    <color name="blue_text">#586B96</color>
+    <color name="coffee">#622f1b</color>
+    <color name="gray">#5D5D5D</color>
+    <color name="gray_bg">#EBEBEB</color>
+    <color name="green_main_color">#09A284</color>
+    <color name="ldrawer_color">#FFFFFF</color>
+    <color name="light_blue">#5CACEE</color>
+    <color name="line">#D9D9D9</color>
+    <color name="list_decs_color">#999999</color>
+    <color name="list_divider_color">#D9D9D9</color>
+    <color name="main_color">#21292C</color>
+    <color name="red">#FF0000</color>
+    <color name="tab_bg">#FCFCFC</color>
+    <color name="tab_line1_bg">#D6D6D6</color>
+    <color name="tab_line2_bg">#F2F2F2</color>
+    <color name="tab_textcolor_checked">#5AAE3E</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_half">#A0000000</color>
+    <color name="transparentblack">#88000000</color>
+    <!-- From: file:/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/res/values/umeng_fb_color.xml -->
+    <eat-comment/>
+    <color name="umeng_fb_audo_dialog_bg">#F4F0745F</color>
+    <color name="umeng_fb_background">#F6F6F6</color>
+    <color name="umeng_fb_gray">#FFD8D8D8</color>
+    <color name="umeng_fb_lightblue">#FF0FB0A8</color>
+    <color name="umeng_fb_line">#DCDCDC</color>
+    <color name="umeng_fb_secondary_text_light">#8A000000</color>
+    <color name="umeng_fb_tab_bg_pressed">#6633B5E5</color>
+    <color name="umeng_fb_white">#FFFFFF</color>
+    <!-- From: file:/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="wangyibg">#f0f0f0</color>
+    <color name="wangyibg2">#E0E0E0</color>
+    <color name="white">#FFFFFF</color>
+    <declare-styleable name="AbsListView"><attr format="color|reference" name="listSelector"/><attr format="boolean" name="drawSelectorOnTop"/><attr format="boolean" name="stackFromBottom"/><attr format="boolean" name="scrollingCache"/><attr format="boolean" name="textFilterEnabled"/><attr name="transcriptMode"><enum name="disabled" value="0"/><enum name="normal" value="1"/><enum name="alwaysScroll" value="2"/></attr><attr format="color" name="cacheColorHint"/><attr format="boolean" name="fastScrollEnabled"/><attr format="boolean" name="smoothScrollbar"/><attr name="choiceMode"><enum name="none" value="0"/><enum name="singleChoice" value="1"/><enum name="multipleChoice" value="2"/><enum name="multipleChoiceModal" value="3"/></attr><attr format="boolean" name="fastScrollAlwaysVisible"/></declare-styleable>
+    <declare-styleable name="CircleImageView"><attr format="dimension" name="border_width"/><attr format="color" name="border_color"/></declare-styleable>
+    <declare-styleable name="ListView"><attr format="dimension" name="dividerHeight"/><attr format="boolean" name="headerDividersEnabled"/><attr format="boolean" name="footerDividersEnabled"/><attr format="reference|color" name="overScrollHeader"/><attr format="reference|color" name="overScrollFooter"/></declare-styleable>
+    <declare-styleable name="MaterialMenuView"><attr format="color" name="mm_color"/><attr format="integer" name="mm_scale"/><attr format="integer" name="mm_transformDuration"/><attr format="integer" name="mm_pressedDuration"/><attr format="integer" name="mm_strokeWidth"/><attr format="boolean" name="mm_rtlEnabled"/></declare-styleable>
+    <declare-styleable name="PinterestLikeAdapterView"><attr format="integer" name="plaColumnNumber"/><attr format="integer" name="plaLandscapeColumnNumber"/><attr format="dimension" name="plaColumnPaddingLeft"/><attr format="dimension" name="plaColumnPaddingRight"/></declare-styleable>
+    <declare-styleable name="View"><attr format="reference" name="id"/><attr format="string" name="tag"/><attr format="dimension" name="scrollX"/><attr format="dimension" name="scrollY"/><attr format="dimension" name="padding"/><attr format="dimension" name="paddingLeft"/><attr format="dimension" name="paddingTop"/><attr format="dimension" name="paddingRight"/><attr format="dimension" name="paddingBottom"/><attr format="dimension" name="paddingStart"/><attr format="dimension" name="paddingEnd"/><attr format="boolean" name="focusable"/><attr format="boolean" name="focusableInTouchMode"/><attr name="visibility"><enum name="visible" value="0"/><enum name="invisible" value="1"/><enum name="gone" value="2"/></attr><attr format="boolean" name="fitsSystemWindows"/><attr name="scrollbars"><flag name="none" value="0x00000000"/><flag name="horizontal" value="0x00000100"/><flag name="vertical" value="0x00000200"/></attr><attr name="scrollbarStyle"><enum name="insideOverlay" value="0x0"/><enum name="insideInset" value="0x01000000"/><enum name="outsideOverlay" value="0x02000000"/><enum name="outsideInset" value="0x03000000"/></attr><attr format="boolean" name="isScrollContainer"/><attr format="boolean" name="fadeScrollbars"/><attr format="integer" name="scrollbarFadeDuration"/><attr format="integer" name="scrollbarDefaultDelayBeforeFade"/><attr format="dimension" name="scrollbarSize"/><attr format="reference" name="scrollbarThumbHorizontal"/><attr format="reference" name="scrollbarThumbVertical"/><attr format="reference" name="scrollbarTrackHorizontal"/><attr format="reference" name="scrollbarTrackVertical"/><attr format="boolean" name="scrollbarAlwaysDrawHorizontalTrack"/><attr format="boolean" name="scrollbarAlwaysDrawVerticalTrack"/><attr name="fadingEdge"><flag name="none" value="0x00000000"/><flag name="horizontal" value="0x00001000"/><flag name="vertical" value="0x00002000"/></attr><attr name="requiresFadingEdge"><flag name="none" value="0x00000000"/><flag name="horizontal" value="0x00001000"/><flag name="vertical" value="0x00002000"/></attr><attr format="dimension" name="fadingEdgeLength"/><attr format="reference" name="nextFocusLeft"/><attr format="reference" name="nextFocusRight"/><attr format="reference" name="nextFocusUp"/><attr format="reference" name="nextFocusDown"/><attr format="reference" name="nextFocusForward"/><attr format="boolean" name="clickable"/><attr format="boolean" name="longClickable"/><attr format="boolean" name="saveEnabled"/><attr format="boolean" name="filterTouchesWhenObscured"/><attr name="drawingCacheQuality"><enum name="auto" value="0"/><enum name="low" value="1"/><enum name="high" value="2"/></attr><attr format="boolean" name="keepScreenOn"/><attr format="boolean" name="duplicateParentState"/><attr format="dimension" name="minHeight"/><attr format="dimension" name="minWidth"/><attr format="boolean" name="soundEffectsEnabled"/><attr format="boolean" name="hapticFeedbackEnabled"/><attr format="string" localization="suggested" name="contentDescription"/><attr format="string" name="onClick"/><attr name="overScrollMode"><enum name="always" value="0"/><enum name="ifContentScrolls" value="1"/><enum name="never" value="2"/></attr><attr format="float" name="alpha"/><attr format="dimension" name="translationX"/><attr format="dimension" name="translationY"/><attr format="dimension" name="transformPivotX"/><attr format="dimension" name="transformPivotY"/><attr format="float" name="rotation"/><attr format="float" name="rotationX"/><attr format="float" name="rotationY"/><attr format="float" name="scaleX"/><attr format="float" name="scaleY"/><attr name="verticalScrollbarPosition"><enum name="defaultPosition" value="0"/><enum name="left" value="1"/><enum name="right" value="2"/></attr><attr name="layerType"><enum name="none" value="0"/><enum name="software" value="1"/><enum name="hardware" value="2"/></attr><attr name="layoutDirection"><enum name="ltr" value="0"/><enum name="rtl" value="1"/><enum name="inherit" value="2"/><enum name="locale" value="3"/></attr><attr format="integer" name="textDirection"><enum name="inherit" value="0"/><enum name="firstStrong" value="1"/><enum name="anyRtl" value="2"/><enum name="ltr" value="3"/><enum name="rtl" value="4"/><enum name="locale" value="5"/></attr><attr format="integer" name="textAlignment"><enum name="inherit" value="0"/><enum name="gravity" value="1"/><enum name="textStart" value="2"/><enum name="textEnd" value="3"/><enum name="center" value="4"/><enum name="viewStart" value="5"/><enum name="viewEnd" value="6"/></attr><attr format="integer" name="importantForAccessibility"><enum name="auto" value="0"/><enum name="yes" value="1"/><enum name="no" value="2"/></attr><attr format="integer" name="accessibilityFocusable"><enum name="auto" value="0"/><enum name="yes" value="1"/><enum name="no" value="2"/></attr></declare-styleable>
+    <declare-styleable name="ViewGroup"><attr format="boolean" name="animateLayoutChanges"/><attr format="boolean" name="clipChildren"/><attr format="boolean" name="clipToPadding"/><attr format="reference" name="layoutAnimation"/><attr format="boolean" name="animationCache"/><attr name="persistentDrawingCache"><flag name="none" value="0x0"/><flag name="animation" value="0x1"/><flag name="scrolling" value="0x2"/><flag name="all" value="0x3"/></attr><attr format="boolean" name="alwaysDrawnWithCache"/><attr format="boolean" name="addStatesFromChildren"/><attr name="descendantFocusability"><enum name="beforeDescendants" value="0"/><enum name="afterDescendants" value="1"/><enum name="blocksDescendants" value="2"/></attr><attr format="boolean" name="splitMotionEvents"/></declare-styleable>
+    <declare-styleable name="roundedimageview"><attr format="dimension" name="border_thickness"/></declare-styleable>
+    <!-- From: file:/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="content_size">16sp</dimen>
+    <dimen name="desc_size">13sp</dimen>
+    <dimen name="dialog_title_size">20sp</dimen>
+    <dimen name="ldrawer_barSize">18dp</dimen>
+    <dimen name="ldrawer_drawableSize">50dp</dimen>
+    <dimen name="ldrawer_gapBetweenBars">3dp</dimen>
+    <dimen name="ldrawer_middleBarArrowSize">16dp</dimen>
+    <dimen name="ldrawer_thickness">2dp</dimen>
+    <dimen name="ldrawer_topBottomBarArrowSize">11dp</dimen>
+    <dimen name="listitem_blogger_height">50dip</dimen>
+    <dimen name="mm_up_arrow_margin">-16dp</dimen>
+    <dimen name="navdrawer_width">240dip</dimen>
+    <dimen name="popwindow_bloglist_width">220dip</dimen>
+    <dimen name="share_bar_height">40dip</dimen>
+    <dimen name="title_height">50dip</dimen>
+    <dimen name="title_size">17sp</dimen>
+    <!-- From: file:/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/res/values/umeng_fb_dimens.xml -->
+    <eat-comment/>
+    <dimen name="umeng_fb_item_content_size">14sp</dimen>
+    <dimen name="umeng_fb_item_height">48dp</dimen>
+    <dimen name="umeng_fb_item_line_height">0.8dp</dimen>
+    <dimen name="umeng_fb_item_time_size">12sp</dimen>
+    <dimen name="umeng_fb_normal_size">13dp</dimen>
+    <dimen name="umeng_fb_record_btn_text_size">20sp</dimen>
+    <dimen name="umeng_fb_spinner_padding_left">12dp</dimen>
+    <!-- From: file:/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <drawable name="transparent">#00000000</drawable>
+    <!-- From: file:/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/build/intermediates/exploded-aar/FreeCsdn/xListView/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <item name="scrapped_view" type="id"/>
+    <!-- From: file:/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/res/values/umeng_update_string.xml -->
+    <eat-comment/>
+    <string name="UMAppUpdate">App updating</string>
+    <string name="UMBreak_Network">Please make sure you are connected to internet,update failed</string>
+    <string name="UMDialog_InstallAPK">The lastest version has been downloaded, install now ?</string>
+    <string name="UMGprsCondition">(Warning: Not WIFI Condition)</string>
+    <string name="UMIgnore">Ingore this</string>
+    <string name="UMNewVersion">Latest version: </string>
+    <string name="UMNotNow">Not now</string>
+    <string name="UMTargetSize">Target size: </string>
+    <string name="UMToast_IsUpdating">Updating....</string>
+    <string name="UMUpdateCheck">2.6.0.1.20150312</string>
+    <string name="UMUpdateContent">Update Content</string>
+    <string name="UMUpdateNow">Update now</string>
+    <string name="UMUpdateSize">Update size: </string>
+    <string name="UMUpdateTitle">New version found</string>
+    <!-- From: file:/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="about">关于</string>
+    <string name="about_us">关于我们</string>
+    <string name="action_add">添加博客</string>
+    <string name="action_new_conversation">新建会话</string>
+    <string name="add_blog_notice">例如：博客地址为“http://blog.csdn.net/abc”，那么“abc”就是您的博客ID。</string>
+    <string name="android_blog">Android博客</string>
+    <string name="app_name">CSDN博客</string>
+    <string name="blog_create_date">2014-08-08 17:54|141人阅读</string>
+    <string name="blog_desc">本篇博客介绍Cocos2d-x 3.2示例中的UserDefaulstTest,我们在开发中可能需要用到一些默认配置，一般会以xml形式保存。Cocos2d-x为我们提供了UserDefault类来实现这样的需求。</string>
+    <string name="blog_description">本篇博客介绍Cocos2d-x 3.2示例中的UserDefaulstTest,我们在开发中可能需要用到一些默认配置，一般会以xml形式保存。Cocos2d-x为我们提供了UserDefault类来实现这样的需求。</string>
+    <string name="blog_detail">博客详情</string>
+    <string name="blog_expert">博客专家</string>
+    <string name="blog_post">博客专栏</string>
+    <string name="blog_read_times">1</string>
+    <string name="blog_title">Cocos2d-x 3.2示例UserDefaultTest（用户默认配置）</string>
+    <string name="blogger">博客</string>
+    <string name="blogger_delete">删除博主</string>
+    <string name="blogger_stick">置顶博主</string>
+    <string name="bogger_title">Android博客</string>
+    <string name="cache_operation">取消操作</string>
+    <string name="cache_size">0M</string>
+    <string name="cancle">取消</string>
+    <string name="change_type">切换频道</string>
+    <string name="channel">频道</string>
+    <string name="channel_name">移动开发</string>
+    <string name="check_update">检查更新</string>
+    <string name="clear_cache">清除缓存</string>
+    <string name="collect">收藏</string>
+    <string name="coming_soon">即将推出，敬请期待</string>
+    <string name="comment_list">评论</string>
+    <string name="comment_mark">mark</string>
+    <string name="comment_replay">回复:</string>
+    <string name="comment_user_name">username</string>
+    <string name="comment_username">username</string>
+    <string name="commet_date">2013-10-11</string>
+    <string name="confirm">确定</string>
+    <string name="confirm_to_exit">确定要退出吗？</string>
+    <string name="contact_us">联系我们</string>
+    <string name="drawer_close">drawer_close</string>
+    <string name="drawer_open">drawer_open</string>
+    <string name="empty"/>
+    <string name="exit">退出</string>
+    <string name="feedback">用户反馈</string>
+    <string name="find">发现</string>
+    <!-- From: file:/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/build/intermediates/exploded-aar/FreeCsdn/xListView/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="hello">Hello World, XListViewActivity!</string>
+    <!-- From: file:/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="hello_world">Hello world!</string>
+    <string name="hint_input_blog_id">请输入您要添加的博客ID</string>
+    <string name="hot_blog">热门博客</string>
+    <string name="input_blog_id">添加博客ID</string>
+    <string name="loading">正在加载...</string>
+    <string name="me">我</string>
+    <string name="message_image_desc">Message Image</string>
+    <string name="notice">提示</string>
+    <!-- From: file:/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/build/intermediates/exploded-aar/FreeCsdn/xListView/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="ptr_last_updated">Updated: %1$s</string>
+    <string name="ptr_pull_to_refresh">Pull to refresh</string>
+    <string name="ptr_refreshing">Refreshing</string>
+    <string name="ptr_release_to_refresh">Release to refresh</string>
+    <!-- From: file:/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="rank">排行榜</string>
+    <string name="refresh_complete">数据已更新</string>
+    <string name="settings">设置</string>
+    <string name="setttings_now_version">当前版本V</string>
+    <string name="share_app">分享好友</string>
+    <string name="subscription">订阅</string>
+    <string name="toast_message">消息提醒</string>
+    <!-- From: file:/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/res/values/umeng_common_strings.xml -->
+    <eat-comment/>
+    <string name="umeng_common_action_cancel">Cancel</string>
+    <string name="umeng_common_action_continue">Continue</string>
+    <string name="umeng_common_action_info_exist">The app is already in downloading list.</string>
+    <string name="umeng_common_action_pause">Pause</string>
+    <string name="umeng_common_download_failed">Download Failed! </string>
+    <string name="umeng_common_download_finish">Download finished,click to install it.</string>
+    <string name="umeng_common_download_notification_prefix">Downloading: </string>
+    <string name="umeng_common_icon">icon</string>
+    <string name="umeng_common_info_interrupt">dowload interrupted.</string>
+    <string name="umeng_common_network_break_alert">Please make sure you are connected to internet, download failed</string>
+    <string name="umeng_common_patch_finish">Patch finished,click to install it.</string>
+    <string name="umeng_common_pause_notification_prefix">Pause: </string>
+    <string name="umeng_common_silent_download_finish">New version is ready,click to install it.</string>
+    <string name="umeng_common_start_download_notification">Download start.</string>
+    <string name="umeng_common_start_patch_notification">Patch start.</string>
+    <!-- From: file:/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/res/values/umeng_fb_strings.xml -->
+    <eat-comment/>
+    <string name="umeng_fb_back">Back</string>
+    <string name="umeng_fb_change_contact_title">Change contact Info</string>
+    <string name="umeng_fb_contact_email">Email</string>
+    <string name="umeng_fb_contact_info">Contact Info</string>
+    <string name="umeng_fb_contact_info_hint">Email, MSN, Gtalk, or whatever we can find you.</string>
+    <string name="umeng_fb_contact_key_email">email</string>
+    <string name="umeng_fb_contact_key_other">plain</string>
+    <string name="umeng_fb_contact_key_phone">phone</string>
+    <string name="umeng_fb_contact_key_qq">qq</string>
+    <string name="umeng_fb_contact_other">Other</string>
+    <string name="umeng_fb_contact_phone">Phone</string>
+    <string name="umeng_fb_contact_qq">QQ</string>
+    <string name="umeng_fb_contact_save">Save</string>
+    <string name="umeng_fb_count_down">Count down</string>
+    <string name="umeng_fb_feedback">Feedback</string>
+    <string name="umeng_fb_no_record_permission">No permission of record</string>
+    <string name="umeng_fb_notification_content_formatter_multiple_msg">You received %d new replies from the app developer.</string>
+    <string name="umeng_fb_notification_content_formatter_single_msg">New reply: %s</string>
+    <string name="umeng_fb_notification_ticker_text">Got new reply</string>
+    <string name="umeng_fb_please_select_picture">Please select a picture</string>
+    <string name="umeng_fb_press_speech">Hold to Talk</string>
+    <string name="umeng_fb_questions_anwser">A:</string>
+    <string name="umeng_fb_questions_question">Q:</string>
+    <string name="umeng_fb_record_fail">Record fail</string>
+    <string name="umeng_fb_record_time_short">Message too short</string>
+    <string name="umeng_fb_release_cancel">Release to cancel</string>
+    <string name="umeng_fb_release_send">Release to Send</string>
+    <string name="umeng_fb_reply_content_default">Your precious feedback are appriciated.</string>
+    <string name="umeng_fb_send">Send</string>
+    <string name="umeng_fb_send_fail">Send fail</string>
+    <string name="umeng_fb_sending">Sending…</string>
+    <string name="umeng_fb_slide_up_cancel">Slide up to cancel</string>
+    <string name="umeng_fb_time_minutes_ago">%d minutes ago</string>
+    <string name="umeng_fb_time_pre_year_format">yy/MM/dd HH:mm:ss</string>
+    <string name="umeng_fb_time_right_now">Just now</string>
+    <string name="umeng_fb_time_this_year_format">MM/dd HH:mm:ss</string>
+    <string name="umeng_fb_title">Feedback</string>
+    <string name="umeng_fb_write_contact_title">Write contact Info</string>
+    <!-- From: file:/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="update_log">更新日志</string>
+    <string name="user_center">个人中心</string>
+    <string name="user_name">东风解冻</string>
+    <string name="wechat_name">QQ号：820012865</string>
+    <!-- From: file:/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/build/intermediates/exploded-aar/FreeCsdn/xListView/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="xlistview_footer_hint_normal">上滑查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_last_time">更新：</string>
+    <!-- From: file:/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="ActionBar" parent="android:Widget.ActionBar">
+        <item name="android:background">@color/main_color</item>
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:titleTextStyle">@style/ActionBar.TitleText</item>
+    </style>
+    <style name="ActionBar.TitleText" parent="android:TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="ActionBarTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+    </style>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+
+
+
+
+
+
+
+
+
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="BaseDialog" parent="@android:style/Theme.Dialog"/>
+    <style name="TextView_Dialog_Blogger_Operation" parent="android:Widget.TextView">
+        <item name="android:background">@drawable/selector_text_bg_white</item>
+        <item name="android:paddingBottom">15dip</item>
+        <item name="android:paddingLeft">25dip</item>
+        <item name="android:paddingRight">25dip</item>
+        <item name="android:paddingTop">15dip</item>
+        <item name="android:textColor">@color/black_text</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="Theme.Light.FullScreenDialogAct" parent="@style/BaseDialog">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+    </style>
+    <style name="Theme.Light.LoadingDialog" parent="@style/BaseDialog">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+    </style>
+    <style name="find_layout_style">
+        <item name="android:background">@drawable/selector_text_bg_white</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="find_text_style" parent="android:Widget.TextView">
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/black_text</item>
+        <item name="android:textSize">@dimen/content_size</item>
+    </style>
+    <style name="main_tab_bottom">
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:paddingTop">4dip</item>
+        <item name="android:paddingBottom">4dip</item>
+        <item name="android:drawablePadding">2dip</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:button">@null</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <!-- From: file:/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/build/intermediates/exploded-aar/FreeCsdn/xListView/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <style name="ptr_arrow">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:src">@drawable/default_ptr_flip_bottom</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+    <style name="ptr_header">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="ptr_headerContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">bottom</item>
+    </style>
+    <style name="ptr_last_updated" parent="ptr_text">
+        <item name="android:textStyle">normal</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:layout_below">@+id/ptr_id_text</item>
+    </style>
+    <style name="ptr_spinner" parent="@android:style/Widget.ProgressBar.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:indeterminate">true</item>
+        <item name="android:layout_marginLeft">28dp</item>
+    </style>
+    <style name="ptr_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <style name="ptr_textwrapper">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+    <!-- From: file:/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="settings_divider_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dip</item>
+        <item name="android:background">@color/line</item>
+        <item name="android:layout_marginLeft">15dip</item>
+        <item name="android:layout_marginRight">15dip</item>
+    </style>
+    <style name="settings_layout_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dip</item>
+        <item name="android:paddingLeft">15dip</item>
+        <item name="android:paddingRight">15dip</item>
+        <item name="android:background">@drawable/selector_text_bg_white</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="settings_text_style" parent="android:Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">10dip</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/black_text</item>
+        <item name="android:textSize">@dimen/content_size</item>
+    </style>
+    <!-- From: file:/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/res/values/umeng_fb_style.xml -->
+    <eat-comment/>
+    <style name="umeng_fb_speech_dialog_style" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground"> @android:color/transparent </item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+</resources>

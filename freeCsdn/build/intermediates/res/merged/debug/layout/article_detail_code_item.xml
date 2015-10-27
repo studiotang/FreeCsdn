@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <WebView 
+        android:id="@+id/code_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        android:layout_margin="5dp"
+        />
+</LinearLayout>
+<!-- From: file:/Users/shenshan/Documents/workspace/FreeCsdn/freeCsdn/src/main/res/layout/article_detail_code_item.xml -->

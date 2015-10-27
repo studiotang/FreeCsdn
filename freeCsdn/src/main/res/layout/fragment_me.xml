@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg"
+    android:orientation="vertical" >
+
+    <include layout="@layout/include_head_layout" />
+
+    <LinearLayout
+        android:id="@+id/ll_me_01"
+        style="@style/find_layout_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip" >
+
+        <ImageView
+            android:id="@+id/imvChannel"
+            android:layout_width="80dip"
+            android:layout_height="80dip"
+            android:contentDescription="@null"
+            android:padding="10dip"
+            android:src="@drawable/me_01" />
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/find_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="true"
+                android:text="@string/user_name" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:gravity="left"
+                android:singleLine="true"
+                android:text="@string/wechat_name"
+                android:textColor="@color/list_decs_color" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="25dip"
+            android:layout_height="25dip"
+            android:layout_marginRight="30dip"
+            android:contentDescription="@null"
+            android:src="@drawable/me_scan_code" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/ll_me_02"
+            style="@style/find_layout_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dip"
+                android:contentDescription="@null"
+                android:padding="10dip"
+                android:src="@drawable/me_02" />
+
+            <TextView
+                style="@style/find_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/collect" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dip"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:background="@color/line" />
+
+        <LinearLayout
+            android:id="@+id/ll_me_03"
+            style="@style/find_layout_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dip"
+                android:contentDescription="@null"
+                android:padding="10dip"
+                android:src="@drawable/me_03" />
+
+            <TextView
+                style="@style/find_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/feedback" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_me_04"
+        style="@style/find_layout_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="50dip"
+            android:contentDescription="@null"
+            android:padding="10dip"
+            android:src="@drawable/me_04" />
+
+        <TextView
+            style="@style/find_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/about" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_me_05"
+        style="@style/find_layout_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="50dip"
+            android:contentDescription="@null"
+            android:padding="10dip"
+            android:src="@drawable/me_05" />
+
+        <TextView
+            style="@style/find_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings" />
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dip"
+        android:background="@drawable/shap_rect_bg_white"
+        android:hint="测试输入法的问题"
+        android:inputType="text"
+        android:padding="10dip" 
+        android:visibility="gone"/>
+
+</LinearLayout>
