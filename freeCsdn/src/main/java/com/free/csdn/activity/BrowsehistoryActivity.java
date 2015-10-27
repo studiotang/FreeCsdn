@@ -35,7 +35,7 @@ import me.maxwin.view.XListView;
  * @data 2015年7月8日下午9:20:20
  *
  */
-public class BrowsehistoryActivity extends BaseActivity
+public class BrowseHistoryActivity extends BaseActivity
 		implements OnItemClickListener, OnClickListener, IXListViewRefreshListener, IXListViewLoadMore {
 
 	private XListView mListView;
@@ -120,7 +120,7 @@ public class BrowsehistoryActivity extends BaseActivity
 		// TODO Auto-generated method stub
 		BlogItem item = (BlogItem) mAdapter.getItem(position - 1);
 		Intent i = new Intent();
-		i.setClass(BrowsehistoryActivity.this, BlogContentActivity.class);
+		i.setClass(BrowseHistoryActivity.this, BlogContentActivity.class);
 		i.putExtra("blogItem", item);
 		startActivity(i);
 
@@ -156,7 +156,7 @@ public class BrowsehistoryActivity extends BaseActivity
 				List<BlogItem> list = mBlogCollectDao.query(mPage, mPageSize);
 				if (list != null && list.size() != 0) {
 					mAdapter.setList(list);
-					mListView.setPullLoadEnable(BrowsehistoryActivity.this);// 设置可上拉加载
+					mListView.setPullLoadEnable(BrowseHistoryActivity.this);// 设置可上拉加载
 					mListView.setRefreshTime(DateUtil.getDate());
 					mListView.stopLoadMore();
 					mListView.stopRefresh(DateUtil.getDate());
