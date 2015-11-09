@@ -44,7 +44,8 @@ public class BaseApplication extends Application {
 		initImageLoader();
 
 		// 使用腾讯BUGLY上传崩溃信息
-		initCrashReport();
+//		initCrashReport();
+		initCrashHandler();
 	}
 
 	/**
@@ -57,7 +58,6 @@ public class BaseApplication extends Application {
 	/**
 	 * 初始化CrashHandler(保存在本地)
 	 */
-	@SuppressWarnings("unused")
 	private void initCrashHandler() {
 		CrashHandler crashHandler = CrashHandler.getInstance();
 		crashHandler.init(this);

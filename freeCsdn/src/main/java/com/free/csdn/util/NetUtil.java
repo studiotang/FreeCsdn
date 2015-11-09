@@ -1,13 +1,5 @@
 package com.free.csdn.util;
 
-import java.net.InetAddress;
-import java.net.NetworkInterface;
-import java.net.SocketException;
-import java.util.Enumeration;
-import java.util.List;
-
-import org.apache.http.conn.util.InetAddressUtils;
-
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.pm.PackageManager;
@@ -20,6 +12,12 @@ import android.net.wifi.WifiManager;
 import android.telephony.NeighboringCellInfo;
 import android.telephony.TelephonyManager;
 import android.util.Log;
+
+import java.net.InetAddress;
+import java.net.NetworkInterface;
+import java.net.SocketException;
+import java.util.Enumeration;
+import java.util.List;
 
 @SuppressLint("DefaultLocale")
 public class NetUtil {
@@ -295,27 +293,27 @@ public class NetUtil {
 		return lm.isProviderEnabled(LocationManager.GPS_PROVIDER);
 	}
 
-	/**
-	 * 获取本机的Ip地址
-	 * 
-	 * @return
-	 */
-	public static String getLocalIpAddress() {
-		try {
-			for (Enumeration<NetworkInterface> en = NetworkInterface.getNetworkInterfaces(); en.hasMoreElements();) {
-				NetworkInterface intf = en.nextElement();
-				for (Enumeration<InetAddress> enumIpAddr = intf.getInetAddresses(); enumIpAddr.hasMoreElements();) {
-					InetAddress inetAddress = enumIpAddr.nextElement();
-					if (!inetAddress.isLoopbackAddress()
-							&& InetAddressUtils.isIPv4Address(inetAddress.getHostAddress())) {
-						return inetAddress.getHostAddress().toString();
-					}
-				}
-			}
-		} catch (SocketException ex) {
-		}
-		return null;
-	}
+//	/**
+//	 * 获取本机的Ip地址
+//	 *
+//	 * @return
+//	 */
+//	public static String getLocalIpAddress() {
+//		try {
+//			for (Enumeration<NetworkInterface> en = NetworkInterface.getNetworkInterfaces(); en.hasMoreElements();) {
+//				NetworkInterface intf = en.nextElement();
+//				for (Enumeration<InetAddress> enumIpAddr = intf.getInetAddresses(); enumIpAddr.hasMoreElements();) {
+//					InetAddress inetAddress = enumIpAddr.nextElement();
+//					if (!inetAddress.isLoopbackAddress()
+//							&& InetAddressUtils.isIPv4Address(inetAddress.getHostAddress())) {
+//						return inetAddress.getHostAddress().toString();
+//					}
+//				}
+//			}
+//		} catch (SocketException ex) {
+//		}
+//		return null;
+//	}
 
 	/**
 	 * 枚举网络状态 NET_NO：没有网络 NET_2G:2g网络 NET_3G：3g网络 NET_4G：4g网络 NET_WIFI：wifi

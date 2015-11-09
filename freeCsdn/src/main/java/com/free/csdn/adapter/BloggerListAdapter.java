@@ -68,7 +68,7 @@ public class BloggerListAdapter extends BaseAdapter {
 		}
 
 		if (!TextUtils.isEmpty(getItem(position).getImgUrl())) {
-			ImageLoaderUtils.displayImg(getItem(position).getImgUrl(), holder.imvBlogger);
+			ImageLoaderUtils.displayRoundImage(getItem(position).getImgUrl(), holder.imvBlogger);
 		} else {
 			holder.imvBlogger.setImageResource(R.drawable.ic_default);
 		}

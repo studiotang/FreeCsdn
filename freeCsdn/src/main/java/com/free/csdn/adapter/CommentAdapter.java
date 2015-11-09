@@ -112,8 +112,7 @@ public class CommentAdapter extends BaseAdapter {
 				holder.content.setText(Html.fromHtml(item.getContent()));
 				holder.date.setText(item.getPostTime());
 				// holder.reply.setText(item.getReplyCount());
-
-				ImageLoaderUtils.displayImg(item.getUserface(), holder.userface);
+				ImageLoaderUtils.displayRoundImage(item.getUserface(), holder.userface);
 				break;
 			case AppConstants.DEF_COMMENT_TYPE.CHILD:
 				holder.name.setText(item.getUsername());
